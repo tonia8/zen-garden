@@ -1,0 +1,55 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 100% arial, sans-serif;
+	color: purple; 
+	background: url(nature.jpg) no-repeat bottom right;
+	background-color: #fcdefa;
+	margin: 0;}
+	
+	.summary p {margin-right:400px;
+    font-style:oblique;}
+
+h3 {color: #7D775C;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: blue;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: red;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline;
+	}
+
+header {background:white;
+	margin-top: 5px;
+	display: block;
+	margin-right:10px;
+	padding:5px;
+	font:300px;
+	}
+
+.main, .preamble {margin-right:400px;
+    float:left;
+}
+
+footer {text-align: center;}
+    
+
+.sidebar {
+	margin-left: 500px;
+	margin-right: 20px;
+	position: absolute; 
+	right: 0;
+	font: 10px; 
+	background: white; 
+	margin-top: 50px;
+	width: 300px;
+    padding:5px;}
